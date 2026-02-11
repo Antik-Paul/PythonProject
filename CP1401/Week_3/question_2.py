@@ -1,4 +1,4 @@
-applicant_age = int(input("What's your age : "))
+applicant_age = float(input("What's your age : "))
 if applicant_age < 18:
     print("Hire refused")
 elif applicant_age < 25:

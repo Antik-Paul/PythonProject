@@ -19,9 +19,11 @@ take_home_pay = income - total_tax
 print total_tax
 print take_home_pay
 '''
-TAX_RATE_LOW = 0.05  # 5%
+TAX_RATE_LOW = 0.02  # 2%
+TAX_RATE_MID = 0.05  # 5%
 TAX_RATE_HIGH = 0.1  # 10%
 TAX_THRESHOLD_LOW = 100
+TAX_THRESHOLD_MID = 500
 TAX_THRESHOLD_HIGH = 1000
 
 print("Python Party Tax Program - Where Tax is a Party")
@@ -32,8 +34,10 @@ if income < 0 :
 else:
     if income < TAX_THRESHOLD_LOW :
         tax_rate = 0
-    elif income <= TAX_THRESHOLD_HIGH :
+    elif income <= TAX_THRESHOLD_MID :
         tax_rate = TAX_RATE_LOW
+    elif income <= TAX_THRESHOLD_HIGH :
+        tax_rate = TAX_RATE_MID
     else :
         tax_rate = TAX_RATE_HIGH
 

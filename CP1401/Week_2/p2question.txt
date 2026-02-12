@@ -1,0 +1,18 @@
+# Quick Questions
+
+Write two variable names that would be valid and well-named.
+user_name, user_address
+Write two variable names that would be valid but not well-named.
+Tax, Bot
+Write two variable names that would not be valid.
+2name, user data
+What is the naming convention for variables in Python?
+PEP8 (Python Enchanment Proposal 8)
+What is a constant? Give an example of when you would use one.
+A constant is a name that references a value that cannot be changed. There are different types of constant like global, local, etc. For example: int
+What is the naming convention for constants?
+SCREAMING_SNEAK_CASE.
+
+# Logic Exercise
+
+3 Times.

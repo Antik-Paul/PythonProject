@@ -1,0 +1,42 @@
+# Quick Questions
+
+a = 2
+b = 3
+c = 4
+
+What is the "not equal to" operator in Python?
+!=
+What is the "less than or equal to" operator in Python?
+<=
+b + c * a > a ** b
+11>8
+True or (c ** b - a % b > c ** c)
+True
+not True and False or True
+True
+(a * b + c) % 2 == 0
+True
+
+# Patterns
+
+Deciding what coffee to make based on a customer's order (flat white, cappuccino, piccolo, long black, espresso...)
+if, elif, else
+Deciding whether to toast a customer's sandwich
+if, no else
+Recording what foods a customer is allergic to (ask for each allergen)
+if, if, if...
+Calculating tax based on income - could be one of several tax brackets
+if, elif, else
+Handling the "play again?" question at the end of a computer game level
+if, else
+Determining if a frog is poisonous based on its colour
+if, elif no else
+Determining if a frog is poisonous based on its colour, tongue length and number of eyes
+if, if, if...
+
+# Logic Exercise
+
+Alice is the oldest and Bill is the youngest
+
+# Reflection
+

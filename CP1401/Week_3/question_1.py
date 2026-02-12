@@ -30,7 +30,7 @@ income = float(input("Income: $"))
 if income < 0 :
     print("Error: Income cannot be negative")
 else:
-    if income < TAX_RATE_LOW :
+    if income < TAX_THRESHOLD_LOW :
         tax_rate = 0
     elif income <= TAX_THRESHOLD_HIGH :
         tax_rate = TAX_RATE_LOW

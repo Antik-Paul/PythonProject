@@ -1,0 +1,84 @@
+### Quick Questions
+
+
+# What is the PyCharm keyboard shortcut for commenting (out/in) a selection of code?
+Single-line comment: Select the lines you want to comment and press Ctrl + / (Windows) 
+Block comment: Select multiple lines of code and press Ctrl + Shift + / (Windows)
+# What are the two kinds of loops available in Python?
+while, for.
+# What is a "sentinel" (when dealing with loops)?
+This is a special value used to indicate when the loop should terminate. 
+# What is wrong with this variable name: nothingWrong
+It is not a preffered way to name a variable.
+# What are augmented assignment operators?
++=, -=, *=, etc.
+
+
+### range
+
+##(a)
+
+# 1.	
+for i in range(6):
+    print(i, end=' ')
+print()
+
+0 1 2 3 4 5
+
+# 2.	
+for i in range(33, 39):
+    print(i, end=' ')
+print()
+
+33 34 35 36 37 38
+
+# 3.	
+for i in range(17, 11, -1):
+    print(i, end=' ')
+print()
+
+17 16 15 14 13 12 
+
+# 4.	
+for i in range(1, 11):
+    print(i % 2, end=' ')
+print()
+
+1 0 1 0 1 0 1 0 1 0 
+
+# 5.	
+for i in range(10, 0, -2):
+    print(i ** 2, end='>')
+print()
+
+100>64>36>16>4>
+
+##(b)
+
+#[0, 1, 2, 3, 4, 5]
+range(6)
+#[1, 5, 9, 13]
+range(1, 14, 4)
+#[3, 2, 1]
+range(3, 0, -1)
+#[7, 4, 1, -2, -5]
+range(7, -6, -3)
+
+
+### Patterns
+
+# Error-checking user input, looping until they enter a valid response
+Indefinite (while loop)
+# A menu with several options including 'quit'
+Indefinite (while loop)
+# Displaying all the months in a year
+Definite (for loop)
+# Printing 5 random numbers
+Definite (for loop)
+# Printing n random numbers, where n is a user input
+Definite (for loop)
+
+
+### Logic Exercise
+
+1 marble

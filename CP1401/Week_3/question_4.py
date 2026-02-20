@@ -7,3 +7,4 @@ print(f'Your Shooting percentage is {shooting_percenatge}')
 
 if shooting_percenatge >= 50:
     print("That's great!")
+    

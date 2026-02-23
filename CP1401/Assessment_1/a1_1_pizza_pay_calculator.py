@@ -1,3 +1,27 @@
+"""
+CP1401 2026 TR1 Assignment 1
+Program – Warm Pizza Pay Calculator
+Name: Antik Paul
+Date started: 23/02/2026
+Pseudocode:
+DISPLAY Warm Pizza Pay Calculator
+
+PAY_PER_TRIP = 1.45
+PAY_PER_MINUTE = 0.95
+
+GET number_of_trips
+GET number_of_minutes
+
+total_pay_of_trips = PAY_PER_TRIP * number_of_trips
+total_pay_of_minutes = PAY_PER_MINUTE * number_of_minutes
+total_pay = total_pay_of_minutes + total_pay_of_trips
+
+DISPLAY total_pay_of_trips
+DISPLAY total_pay_of_minutes
+DISPLAY total_pay
+"""
+
+
 print("Warm Pizza Pay Calculator")
 
 PAY_PER_TRIP = 1.45

@@ -1,10 +1,10 @@
 '''
 daily_hotel_cost=75
-Get daily_food_cost
-Get daily_activities_cost
-Get number_of_days
+GET daily_food_cost
+GET daily_activities_cost
+GET number_of_days
 total_cost=(daily_food_cost+daily_activities_cost+daily_hotel_cost)*number_of_days
-print total_cost
+DISPLAY total_cost
 '''
 daily_hotel_cost = 75
 

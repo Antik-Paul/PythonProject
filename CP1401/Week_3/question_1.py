@@ -16,8 +16,8 @@ Else
 
 total_tax = income * tax_rate
 take_home_pay = income - total_tax
-print total_tax
-print take_home_pay
+DISPLAY total_tax
+DISPLAY take_home_pay
 '''
 TAX_RATE_LOW = 0.02  # 2%
 TAX_RATE_MID = 0.05  # 5%

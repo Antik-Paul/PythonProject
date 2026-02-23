@@ -1,0 +1,6 @@
+### Logic Exercise
+
+#What is each person's job?
+Smith is the Project Manager
+Brown is the Consultant
+Jones is the Programmer

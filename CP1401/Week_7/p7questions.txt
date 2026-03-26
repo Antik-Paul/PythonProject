@@ -1,0 +1,62 @@
+### Quick Questions
+
+
+# What is a string?
+A sequence of characters
+
+# How do you access characters in a string?
+Using indexing (e.g., string[0])
+
+# Are strings mutable?
+No, they are immutable
+
+# What does slicing do?
+Extracts part of a string
+
+
+### Strings
+
+text = "Hello World"
+
+# 1.
+print(text[0])
+H
+
+# 2.
+print(text[-1])
+d
+
+# 3.
+print(text[1:5])
+ello
+
+# 4.
+print(text[:5])
+Hello
+
+# 5.
+print(text[6:])
+World
+
+
+### String Methods
+
+# Convert to uppercase
+print(text.upper())
+
+# Convert to lowercase
+print(text.lower())
+
+# Find position of 'World'
+print(text.find("World"))
+
+# Replace 'World' with 'Python'
+print(text.replace("World", "Python"))
+
+
+### Formatting
+
+name = "Antik"
+age = 20
+
+print(f"My name is {name} and I am {age} years old")

@@ -1,0 +1,21 @@
+### Reflection
+
+1.  What leads to my best learning: I learn best when I write the
+    programs myself, test them with multiple values, and carefully read
+    the instructions instead of rushing. When I debug my own mistakes
+    instead of immediately looking for answers, I understand concepts
+    better.
+
+2.  Getting the most out of teaching: I am trying to actively watch
+    lecture videos and follow along by writing code rather than just
+    watching passively. I still need to improve consistency in reviewing
+    material before practical sessions.
+
+3.  Percentage of lecture videos watched: Approximately 85%.
+
+4.  Time on task outside contact hours: Around 6–8 focused hours per
+    week.
+
+5.  One change to improve consistency: I will schedule fixed weekly
+    revision sessions to revisit lecture concepts and re‑write selected
+    practice problems without looking at solutions.

@@ -4,3 +4,56 @@
 Smith is the Project Manager
 Brown is the Consultant
 Jones is the Programmer
+
+Algorithm with IPO (Brew Ratio)
+
+get dose get yield brew_ratio = yield / dose print “1 to”, brew_ratio
+
+Algorithm with Decision (Can You Afford Item)
+
+get item_price get money_in_pocket
+
+if money_in_pocket >= item_price print “You can afford the item” else
+print “You cannot afford the item”
+
+Algorithm with Repetition (Clean Room)
+
+look at floor
+
+while there are items on the floor pick up one item put item in correct
+place look at floor again
+
+print “Room is clean”
+
+PROBLEM DECOMPOSITION
+
+Problem 1 – Happy Photos Booking System
+
+Final Nouns (Variables): - customer name - booking date - hourly
+charge - number of hours - total charge - booking id
+
+Final Verbs (Actions): - calculate - generate - enter - display
+
+Algorithm – Happy Photos
+
+get customer_name get booking_date get hourly_charge get number_of_hours
+
+booking_id = customer_name + booking_date total_charge = hourly_charge *
+number_of_hours
+
+print booking_id print total_charge
+
+Problem 2 – Road Trip Planning System
+
+Final Nouns (Variables): - distance - travel time - average speed
+
+Final Verbs (Actions): - get - calculate - display
+
+Algorithm – Road Trip
+
+get distance get travel_time_minutes
+
+travel_time_hours = travel_time_minutes / 60 average_speed = distance /
+travel_time_hours
+
+print average_speed

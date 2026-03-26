@@ -40,3 +40,9 @@ Alice is the oldest and Bill is the youngest
 
 ### Reflection
 
+1.  I have been consistent with completing practicals and testing my
+    code properly.
+2.  I sometimes rush through reading instructions and should stop doing
+    that.
+3.  I want to start practising more edge-case testing and writing
+    cleaner, more DRY code.

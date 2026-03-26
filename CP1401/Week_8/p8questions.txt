@@ -1,0 +1,56 @@
+### Quick Questions
+
+
+# What is a function?
+A reusable block of code that performs a task
+
+# Why use functions?
+To avoid repetition and organise code
+
+# What is a parameter?
+A variable passed into a function
+
+# What is a return value?
+The value a function sends back
+
+
+### Functions
+
+# Example function
+def greet(name):
+    print(f"Hello {name}")
+
+greet("Antik")
+
+
+# Function with return
+def add(a, b):
+    return a + b
+
+result = add(3, 4)
+print(result)
+
+
+### Lists and Functions
+
+numbers = [1, 2, 3, 4, 5]
+
+def get_total(values):
+    total = 0
+    for number in values:
+        total += number
+    return total
+
+print(get_total(numbers))
+
+
+### Debugging
+
+# Incorrect
+def square(number):
+    return number * number
+
+print(square(4))
+
+# Output
+16

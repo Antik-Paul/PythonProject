@@ -16,3 +16,18 @@ SCREAMING_SNEAK_CASE.
 ### Logic Exercise
 
 3 Times.
+
+### Reflection
+
+1.  My current career goal is becoming a skilled software engineer
+    working on real-world systems.
+
+2.  My current efforts in this subject are helping me to build strong
+    foundational programming skills, understand problem-solving, and
+    develop logical thinking, which are essential for software
+    engineering.
+
+3.  I can improve the value of my time at university by practising more
+    coding, avoiding shortcuts like AI completion tools, collaborating
+    ethically with peers, and focusing on deeply understanding concepts
+    rather than rushing through tasks.

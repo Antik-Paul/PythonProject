@@ -1,56 +1,63 @@
 ### Quick Questions
 
 
-# What is a function?
-A reusable block of code that performs a task
+# What is the main difference between a list and a tuple?
+Lists are mutable, tuples are immutable
 
-# Why use functions?
-To avoid repetition and organise code
+# What is the convention for naming lists?
+Use plural names
 
-# What is a parameter?
-A variable passed into a function
+# What would be a good name for a list of cities?
+cities
 
-# What is a return value?
-The value a function sends back
+# How many elements can you store in a list?
+As many as memory allows
 
+# True or False? Elements in a list must all be of the same type (e.g. all strings or all integers)?
+False
 
-### Functions
-
-# Example function
-def greet(name):
-    print(f"Hello {name}")
-
-greet("Antik")
+# What does Python's len function do? What types can it be used with?
+Returns the number of items, used with lists, strings, tuples, etc.
 
 
-# Function with return
-def add(a, b):
-    return a + b
+### Lists Warmup
 
-result = add(3, 4)
-print(result)
+## Part 1
+
+numbers = [10, 20, 40, 81]
+
+# numbers[0]
+10
+
+# numbers[-1]
+81
+
+# numbers[3]
+81
+
+# 20 in numbers
+True
+
+# 1 in numbers
+False
+
+# numbers[1] + numbers[2]
+60
+
+# len(numbers)
+4
 
 
-### Lists and Functions
+## Part 2
 
-numbers = [1, 2, 3, 4, 5]
+# Change the first element of numbers to 1
+numbers[0] = 1
 
-def get_total(values):
-    total = 0
-    for number in values:
-        total += number
-    return total
+# Change the last element of numbers to 4
+numbers[-1] = 4
 
-print(get_total(numbers))
+# Check if 1 is an element of numbers
+1 in numbers
 
-
-### Debugging
-
-# Incorrect
-def square(number):
-    return number * number
-
-print(square(4))
-
-# Output
-16
+# Print the second value in the list multiplied by 10
+print(numbers[1] * 10)
